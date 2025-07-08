@@ -1,0 +1,41 @@
+
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.local
+
+# Vite cache
+.vite/
+.vitepress/cache/
+.vitest/
+
+
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains IDEs (e.g., WebStorm)
+.idea/
+
+# Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+
+.env
